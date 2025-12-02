@@ -1,8 +1,9 @@
+import logo from '../assets/logo.png';
 const Navigation = () => {
     return (
          <nav>
         <div className="logo">
-          <img src="public/images/brand-logo.png" alt="logo" />
+         <img src={logo} alt="logo" />
         </div>
 
         <ul>
